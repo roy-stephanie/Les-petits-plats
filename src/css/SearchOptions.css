@@ -32,7 +32,13 @@
 .SearchOptionsElements {
     height: 315px;
     border-radius: 11px;
-    /*overflow: auto;*/
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.SearchOptionsElements::-webkit-scrollbar {
+    display: none;
 }
 
 .SearchOptionsElements > div:hover {
