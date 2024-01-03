@@ -1,13 +1,17 @@
 #SearchOptions {
+    position: absolute;
     display: flex;
     align-items: flex-start;
+    width: 100%;
     gap: 60px;
     padding: 0 40px;
+    z-index: 99;
 }
 
 .recipesLength {
+    margin-top: 15px;
     margin-left: auto;
-    align-self: center;
+    align-self: flex-start;
     font-size: 21px;
     line-height: 31px;
     font-family: "Anton", serif;

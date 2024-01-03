@@ -1,8 +1,11 @@
 #Recipes {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: wrap;
     row-gap: 40px;
     padding: 40px;
+    margin-top: 80px;
+    z-index: 1;
 }
