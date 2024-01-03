@@ -11,4 +11,10 @@ export default function SearchOptionsRender(recipes) {
     searchOptionsDOM.appendChild(SearchOptions('Ingrédients', optionsIngredients));
     searchOptionsDOM.appendChild(SearchOptions('Appareils', optionsAppliance));
     searchOptionsDOM.appendChild(SearchOptions('Ustensiles', optionsUstensils));
+
+    const recipesLength = document.createElement('div');
+    recipesLength.classList.add('recipesLength');
+    recipesLength.textContent = recipes.length > 1 ? `${recipes.length} recettes` : `${recipes.length} recette`;
+
+    searchOptionsDOM.appendChild(recipesLength);
 }

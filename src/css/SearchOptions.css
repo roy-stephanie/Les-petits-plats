@@ -5,6 +5,14 @@
     padding: 0 40px;
 }
 
+.recipesLength {
+    margin-left: auto;
+    align-self: center;
+    font-size: 21px;
+    line-height: 31px;
+    font-family: "Anton", serif;
+}
+
 .SearchOptions {
     display: inline-block;
     background: #ffffff;
